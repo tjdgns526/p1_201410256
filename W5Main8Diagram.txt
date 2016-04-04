@@ -1,0 +1,19 @@
+@startuml
+title BMI Calculate
+start
+:get users input Height;
+:get users input Weight;
+:Compute BMI;
+if(BMI<18.5)
+:저체중;
+elseif(18.5<BMI<23)
+:정상;
+elseif(23<BMI<25)
+:과체중;
+elseif(25<BMI<30)
+:비만;
+elseif(30<BMI)
+:고도비만;
+endif
+stop
+@enduml
