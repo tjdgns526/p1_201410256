@@ -1,0 +1,9 @@
+@startuml
+title Find YoonNyeon
+start
+:input the year;
+if(year is divided by 4) and (year%100 is not divdied by 100 or year is divided by 400)
+:It's YoonNyeon;
+endif
+stop
+@enduml
