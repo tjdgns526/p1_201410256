@@ -1,0 +1,14 @@
+@startuml
+title Sum of Baesoo
+start
+:Find the sum of all the multiples of 3 or 5 below1000.;
+repeat
+if(i is divided by 3 or 5) then (yes)
+:do sum;
+else if(i is divided by 15)
+:do substract;
+endif
+repeat while(1<=i<1001)
+:print sum;
+stop
+@enduml
