@@ -1,0 +1,48 @@
+"""
+@author:KSH
+Since:2016.04.06
+"""
+
+@startuml
+title Sum of Baesoo
+start
+:Find the sum of all the multiples of 3 or 5 below1000.;
+repeat
+if(i is divided by 3 or 5) then 
+:do sum;
+else if(i is divided by 15)
+:substract from sum;
+endif
+repeat while(1<=i<1001)
+:print sum;
+stop
+@enduml
+
+@startuml
+title Find LeapYear
+start
+:input the year;
+if(year is divided by 4) and (year%100 is not divdied by 100 or year is divided by 400) then (yes)
+:It's LeapYear;
+else(No)
+:It's not Leapyear;
+endif
+stop
+@enduml
+
+
+@startuml
+title Up & Down Game
+start
+:input the real answer;
+:input the answer;
+if(answer is bigger than real answer )
+:Up;
+elseif(answer is smaller than real answer )
+:Down;
+elseif(answer = real answer)
+:Correct;
+endif
+stop
+@enduml
+
