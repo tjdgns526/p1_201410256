@@ -15,8 +15,3 @@ MarksTmp = raw_input("Enter Your Marks(0~100):")
 Marks=float(MarksTmp)
 mygrade=ComputeGrade(Marks)
 print mygrade
-
-exitonclick()
-
-
-     
