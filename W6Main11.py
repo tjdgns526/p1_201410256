@@ -4,6 +4,6 @@
         res="YoonNyeon"
     else:
         res="PyeongNyeon"
-    return res
+    print res
 
 FindingYoonNyeon(2016)
