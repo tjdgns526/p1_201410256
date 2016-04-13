@@ -12,6 +12,6 @@
          res="OverObesity"
      else:
          res="Error! Please just value"
-     return res, BMI
+     print res
 
 ComputeBMI(1.8,80)
