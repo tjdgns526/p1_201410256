@@ -5,6 +5,6 @@
                  sum=sum+i
              elif(i%15==0):
                  sum=sum-i
-    return sum
+    print sum
 
 sumOfMultiplesOf3_5(1,1000)
