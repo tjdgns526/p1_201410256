@@ -11,7 +11,7 @@
        print "You entered fahrenheit, enter it's value"
        temp = raw_input("fahrenheit value: ")
        celtemp=float(temp)
-       tem=(celtem-32)/1.8
+       tem=(celtemp-32)/1.8
        print tem
        
 
