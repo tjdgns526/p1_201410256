@@ -17,5 +17,3 @@ def lab7():
     
 def main():
          lab7()
-if __name__=="__main__":
-	main()
