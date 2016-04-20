@@ -12,6 +12,9 @@ def drawSquareAtSave(size,pos):
         tracks.append(t1.pos())
     return tracks
 def drawSquareFromList(tracks):
+    import turtle
+    wn=turtle.Screen()
+    t1=turtle.Turtle()
     for i in range(4):
         t1.goto(tracks[i])
 def saveTracks():
