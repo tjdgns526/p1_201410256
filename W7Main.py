@@ -62,10 +62,8 @@ def replayTracks(myTrack):
         t1.goto(myTrack[i])
 
 def lab7():
-    drawSquareAtSave(100,(0,0))
-    t1.clear()
-    print tracks
-    drawSquareFromList(tracks)
+    myList=drawSquareAtSave(100,(0,0))
+    drawSquareFromList(myList)
     myTrack = saveTracks()
     replayTracks(myTrack)
 def main():
