@@ -12,7 +12,7 @@ class Sichu(Dog):
 
 class PitBul(Dog):
     name='PitBul'
-    sound='pit~Bul!;
+    sound='pit~Bul!'
 
 dog2=Sichu("Mac")
 dog3=PitBul("Bill")
